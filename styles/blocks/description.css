@@ -1,0 +1,13 @@
+.description {
+  display: inherit;
+  flex-direction: inherit;
+  gap: 1rem;  
+}
+
+.description__title {
+  margin: 0;
+}
+
+.description__pgf {
+  margin: 0;
+}

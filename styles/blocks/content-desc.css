@@ -1,0 +1,9 @@
+.content-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.content-desc--person-flex {
+  flex-direction: row;
+}

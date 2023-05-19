@@ -1,0 +1,41 @@
+.header {
+  background-color: var(--almost-black);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding: 10px 50px;
+  position: relative;
+  z-index: 1;
+}
+
+/* .page__header {
+  position: sticky;
+  top: 0;
+} */
+
+.logo {
+  display: inline-flex;
+}
+
+.logo__img {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav__link:hover {
+  color: #e9b712;
+}
+
+.nav__link--active {
+  font-weight: 500;
+  color: #e9b712;;
+}

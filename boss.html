@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bossfights</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles/index.css">
+  </head>
+  <body class ="page__content">
+    <header class="header page__header">
+      <a href = index.html class="logo">
+        <img 
+          src="img/logo.png" 
+          alt="logo elden ring"
+          class="logo__img"
+        >
+       </a>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li>
+            <a class="nav__link" href="lore.html">Сюжет</a>
+          </li>
+          <li>
+            <a class="nav__link" href="chars.html">Персонажи</a>
+          </li>
+          <li>
+            <a class="nav__link nav__link--active" href="boss.html">Боссы</a>
+          </li>
+        </ul>         
+      </nav>
+    </header>
+
+    <main class="page__main">
+      <h1 class="title">You will fight for your cheap soul, brother.</h1>
+      
+      <section class="section page__section section--flex --bosses">
+        <div class="section-nav">
+          <div class="section-nav__card">
+            <a href="#margit">
+              <img src="img/bosses/nav/margit.jpg" class="section-nav__img --top-fit">
+              <div class="section-nav__name">Маргитт<br>Ужасное знамение</div>
+            </a>
+          </div>
+
+          <div class="section-nav__card">
+            <a href="#godrick">
+              <img src="img/bosses/nav/godrick.jpg" class="section-nav__img --top-fit">
+              <div class="section-nav__name">Годрик<br>Сторукий</div>
+            </a>
+          </div>
+
+          <div class="section-nav__card">
+            <a href="#Renalla">
+              <img src="img/bosses/nav/Rennala.webp" class="section-nav__img ">
+              <div class="section-nav__name">Реналла<br>Полнолунная</div>
+            </a>
+          </div>
+
+          <div class="section-nav__card">
+            <a href="#Radan">
+              <img src="img/bosses/nav/radan.jpg" class="section-nav__img --top-fit">
+              <div class="section-nav__name">Радан<br>Бич звезд</div>
+            </a>
+          </div>
+        </div>
+
+        <div class="section-nav">
+          <div class="section-nav__card">
+            <a href="#rickard">
+              <img src="img/bosses/nav/rickard.jpg" class="section-nav__img --top-fit">
+              <div class="section-nav__name">Рикард<br>Богохульный<br>владыка</div>
+            </a>
+          </div>
+
+          <div class="section-nav__card">
+            <a href="#godfrey">
+              <img src="img/bosses/nav/godfrey.png" class="section-nav__img --top-fit">
+              <div class="section-nav__name">Годфри<br>Первый повелитель</div>
+            </a>
+          </div>
+
+          <div class="section-nav__card">
+            <a href="#Morgott">
+              <img src="img/bosses/nav/morgott.avif" class="section-nav__img --top-fit" >
+              <div class="section-nav__name">Морготт<br>Король знамений</div>
+            </a>
+          </div>
+
+          <div class="section-nav__card">
+            <a href="#radagon">
+              <img src="img/bosses/nav/radagon.webp" class="section-nav__img">
+              <div class="section-nav__name">Радагон<br>из Золотого порядка</div>
+            </a>
+          </div>
+        </div>
+
+        <div class="section-nav">
+          <div class="section-nav__card">
+            <a href="#eldenBeast">
+              <img src="img/bosses/nav/eldenBeast.jpg" class="section-nav__img --top-fit">
+              <div class="section-nav__name">Древний<br>зверь</div>
+            </a>
+          </div>
+
+          <div class="section-nav__card --butpain">
+            <a href="#Malenia">
+              <img src="img/bosses/nav/malenia.jpeg" class="section-nav__img --top-fit">
+              <div class="section-nav__name ">Маления<br>Клинок микеллы</div>
+              <div class="section-nav__butpain">Тебе<br>пизда</div>
+            </a>
+          </div>
+
+          <div class="section-nav__card">
+            <a href="#Mog">
+              <img src="img/bosses/nav/mog.jpg" class="section-nav__img --top-fit" >
+              <div class="section-nav__name">Мог<br>Повелитель крови</div>
+            </a>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="section page__section">
+        <h2 class="section__title" id="margit">Маргитт Ужасное Мгновение</h2>
+
+        <div class="content-desc content-desc--person-flex">   
+          <div class = "section__pictures">
+            <div class="section__picture">
+              <img class ="section__picture-img" src="img/bosses/nav/margit.jpg" alt="Elden Ring">
+            </div>
+          </div>
+          <div class="content-desc">
+            <p class="description__pgf">
+              Маргит, Ужасное Знамение (англ. Margit the Fell Omen) — босс в игре Elden Ring.
+              Этот босс является обязательным для прохождения игры только в случае, если игрок
+              решит убить Годрика Сторукого.
+              Маргит, Ужасное Знамение находится на пути персонажа, который стремится попасть
+              в Замок Грозовой Завесы к Годрику, защищая единственный проход в замок, 
+              что расположен после Грозового холма.
+              Маргит вооружен длинным деревянным посохом, а также использует магию, призывая оружие.
+              Повторно босса можно встретить в области Окраины столицы, на юго-западе от места 
+              благодати "Внешняя стена поля боя". Он замаскирован под Простолюдина, нападает если 
+              приблизиться к этому противнику.
+            </p>
+
+            <p class="description__pgf">
+              Первая фаза
+              В первой фазе Маргит использует в ближнем бою посох, имеющий большой радиус 
+              действия, а также использует магический кинжал, который кидает в противника 
+              на расстоянии или машет им на ближней дистанции. После почти любой своей атаки 
+              может либо сделать два быстрых удара кинжалом (учтите, что если вы попали под 
+              первый удар, то почти гарантированно попадёте и под второй), либо один удар, 
+              быстрый рывок назад и бросок клинка в вашу сторону. Также у него есть редкая 
+              атака, во время которой он крутится вокруг своей оси, а завершает её сильный ударом 
+              сверху вниз, который наносит мощный урон.
+              Между тем, его можно безопасно атаковать после некоторых атак:
+              
+              После того, как Маргит в результате комбинации ударов вонзит посох в землю. 
+              Ему потребуется время, чтобы вытащить оружие, что создаст окно для серии ударов 
+              по боссу.
+              Одна из атак Маргита имеет долгую анимацию подготовки, но это лишь иллюзия. 
+              Маргит поднимает посох вверх и берет его в обе руки. Если персонаж будет рядом 
+              с ним, то последует удар, радиус которого включает в себя фронт и тыл Маргита. 
+              Соответственно, сбоку он открыт и этим можно воспользоваться для нанесения удара, 
+              как и время после нанесения удара. Если же персонаж будет далеко, то Маргит 
+              приблизится к персонажу, атакуя. После уклонения может показаться, что есть окно
+              для удара, но на деле сразу же последует второй, однако после повторного переката
+              босс становятся открытым для удара.
+              Вторая фаза
+              Следующая фаза боя начинается после того как полоска здоровья будет
+               уменьшена приблизительно на 35-40%. Маргит отпрыгивает в сторону, после чего комментирует мастерство персонажа и в его свободной руке появляется молот. Затем он прыгает и атакует магическим молотом.
+              
+              Список атак Маргита пополняется атаками молота, а также призванным 
+              мечом, который он использует либо для быстрой, либо для круговой атаки, 
+              при попадании которой он может убить слаборазвитого персонажа. Вместе с 
+              тем, победить его, хоть и становится сложнее, но чуть легче, если придерживаться 
+              следующих рекомендаций:
+              
+              Очень редко, но Маргит также будет бить посохом в землю.
+              Также не исчезает атака с двух рук, описанная в первой фазе.
+              Появляется новая атака Маргита, при которой он два раза метает кинжал, а затем 
+              прыгает и атакует молотом. После этого есть короткое окно для удара.
+              Однако так или иначе стоит научиться уклоняться от многих других его атак и
+              находить момент между ними для удара.
+            </p>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      Тебе здесь будет больно, дружище (C) Кувшин Александр
+    </footer>
+  </body>
+</html>
