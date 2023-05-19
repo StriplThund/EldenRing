@@ -121,6 +121,9 @@
 
 
 @media (max-width: 995px) {
+  .header--mega-main{
+    font-size: 20px
+  }
   .mega-nav__list {
     flex-direction: column;
   }
@@ -139,5 +142,18 @@
     right: 3rem;
     display: block;
     line-height: normal;
+  }
+  .mega-nav__item:active {
+    overflow: hidden;
+    height: inherit;
+    flex-grow: 1.2;
+    outline: 1px solid #b36721;
+    
+    outline-offset: -2rem;
+    .mega-nav__title {
+      background-color: #00000080;
+      border: none;
+      color: #e07d1f;
+    }
   }
 }
