@@ -17,16 +17,16 @@
     <link rel="stylesheet" href="styles/index.css">
   </head>
   <body class="page__content">
-    <header class="header">
-      <a href = index.html class="logo">
+    <header class="header header--mega-main">
+<!--       <a href = index.html class="logo">
         <img 
           src="img/logo.png" 
           alt="logo elden ring"
           class="logo__img"
         >
-       </a>
+       </a> -->
 
-      <nav class="nav">
+<!--       <nav class="nav">
         <ul class="nav__list">
           <li>
             <a class="nav__link" href="lore.html">Сюжет</a>
@@ -38,33 +38,39 @@
             <a class="nav__link" href="boss.html">Боссы</a>
           </li>
         </ul>         
-      </nav>
+      </nav> -->
+    
+    <nav class="mega-nav">
+      <ul class="mega-nav__list">
+        <li class="mega-nav__item">
+          <div class="mega-nav__img --lore">
+            <a class="mega-nav__link" href="lore.html">
+              <div class="mega-nav__title">Сюжет</div>
+            </a>
+          </div>
+        </li>
+
+        <li class="mega-nav__item">
+          <div class="mega-nav__img --chars">
+            <a class="mega-nav__link" href="chars.html">
+              <div class="mega-nav__title">Персонажи</div>
+            </a>
+          </div>
+        </li>
+
+        <li class="mega-nav__item">
+          <div class="mega-nav__img --bosses">
+            <a class="mega-nav__link" href="boss.html">
+              <div class="mega-nav__title">Боссы</div>
+            </a>
+          </div>
+        </li>
+      </ul>         
+    </nav>
+    
     </header>
     <main class="main page__main">
     <h1 class="title">Elden Ring</h1>
-
-    <section class="section page__section">
-      <h2 class="section__title">Куда?</h2>
-
-      <div class="where">
-        <ul class="where__list">
-          <li>
-            <a href="#prehistory" class="where__link">Предыстория</a>
-          </li>
-          <li>
-            <a href="#between" class="where__link">Междуземье</a>
-          </li>
-          <li>
-            <a href="#" class="where__link">Великие руны</a>
-          </li>
-          <li>
-            <a href="#" class="where__link">События</a>
-          </li>
-        </ul>
-      </div>
-      
-      </section>
-
       <section class="section page__section" id="prehistory">
         <h2 class="section__title">Предыстория</h2>
 
