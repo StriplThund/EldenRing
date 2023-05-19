@@ -45,7 +45,7 @@
   font-size: 5rem;
   font-weight: 400;
   padding: 0;
-  font-family: 'Cormorant SC', serif;
+  font-weight: 100;
 }
 
 .mega-nav{
@@ -93,7 +93,6 @@
   background-color: #00000050;
 }
 
-
 .--lore {
   background-image: url(../../img/mega-nav/lore.jpg);
 }
@@ -114,9 +113,31 @@
   
   outline-offset: -2rem;
   .mega-nav__title {
-    background-color: #00000090;
+    background-color: #00000080;
     border: none;
     color: #dd8d14;
-    outline: 1px solid #b3672130;
+  }
+}
+
+
+@media (max-width: 995px) {
+  .mega-nav__list {
+    flex-direction: column;
+  }
+  .mega-nav__img {
+    display: block;
+    height: inherit;
+    background-size: cover;
+    background-position: top;
+  }
+  .mega-nav__item {
+    position: relative;
+  }
+  .mega-nav__title {
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+    display: block;
+    line-height: normal;
   }
 }
