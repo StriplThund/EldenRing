@@ -7,3 +7,9 @@
 .content-desc--person-flex {
   flex-direction: row;
 }
+
+@media (max-width: 750px) {
+  .content-desc {
+    flex-wrap: wrap;
+  }
+}
